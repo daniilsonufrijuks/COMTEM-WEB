@@ -5,47 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/menuestyle.css">
 
 
     <script src="../../../lib/js/jquery-3.3.1.slim.min.js" defer></script>
     <script src="../../../lib/js/popper.min.js" async></script>
-    <link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
     <script src="../../../lib/js/bootstrap.min.js" defer></script>
+    <script src="../../js/menu.js" defer></script>
 
     <title>Document</title>
 </head>
 <body>
-    <ul class="nav justify-content-center top">
-        <li class="nav-item fonthead">
-            <a class="nav-link">COMTEM</a>
-        </li>
-        <li class="nav-item links">
-          <a class="nav-link" href="../home/index.html">HOME</a>
-        </li>
-        <li class="nav-item links">
-          <a class="nav-link active" href="../home/about.html">ABOUT</a>
-        </li>
-        <li class="nav-item links">
-          <a class="nav-link" href="../home/contacts.html">CONTACTS</a>
-        </li>
-        <li class="nav-item links">
-          <a class="nav-link" href="../home/discounts.html">DISCOUNTS</a>
-        </li>
-        <li class="nav-item lang">
-            <a class="nav-link">ENG</a>
-        </li>
-        <li class="nav-item number">
-            <a class="nav-link">+371 22 104 399</a>
-        </li>
-    </ul>
-
-    <nav class="navbar navbar-light navbar">
-      <a class="navbar-brand navtxt">Find your item</a>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0 btnnav" type="submit">Search</button>
-      </form>
+  <header>
+    <div class="logo">COMTEM</div>
+    <nav>
+      <ul id="menu">
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="../home/about.html">About</a></li>
+        <li><a href="../home/contacts.html">Contacts</a></li>
+        <li><a href="../home/discounts.html">Discounts</a></li>
+      </ul>
     </nav>
+    <div class="menu-toggle" id="menu-toggle">
+        &#9776; <!-- This is a hamburger menu icon -->
+    </div>
+  </header>
+
+  <nav class="navbar navbar-light navbar">
+    <a class="navbar-brand navtxt">Find your item</a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 btnnav" type="submit">Search</button>
+    </form>
+  </nav>
     
 </body>
 </html>

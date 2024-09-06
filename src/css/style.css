@@ -12,6 +12,14 @@
     color: #37ae4e !important;
 }
 
+.lang {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #37ae4e;
+    text-align: right;
+}
+
 .navbar {
     background-color: #741b7c;
     color: #622222; /* Set the text color for the navbar */
@@ -32,3 +40,4 @@
     color: #622222 !important; /* Force the text color */
     font-weight: 800 !important;
 }
+
