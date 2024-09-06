@@ -29,7 +29,7 @@
 .navtxt {
     border: 5px solid antiquewhite; 
     border: 1px solid #52af50; /* Set the border color */
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 40px;
     border-bottom-style: solid;
     background-color: antiquewhite; /* Set the background color inside the border */
