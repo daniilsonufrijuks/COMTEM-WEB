@@ -22,8 +22,11 @@ header {
     font-size: 24px;
 }
 
+/* Centering the nav by using flex-grow and justify-content */
 nav {
+    flex-grow: 1;
     display: flex;
+    justify-content: center;
 }
 
 nav ul {
@@ -32,7 +35,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 20px; /* More space between the items */
 }
 
 nav ul li a {
@@ -47,13 +50,23 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+/* Hamburger icon */
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
 
+/* Responsive styles for phones */
 @media (max-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+    
+    nav {
+        flex-grow: 0;
+    }
+
     nav ul {
         display: none;
         flex-direction: column;
@@ -81,4 +94,117 @@ nav ul li a:hover {
         display: block;
         text-align: center;
     }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column;
+    }
+
+    .social-links li {
+        margin: 5px 0;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
 }
