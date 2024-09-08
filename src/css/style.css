@@ -247,7 +247,7 @@ nav ul li a:hover {
 
 .product-card img {
   max-width: 100%;
-  height: auto;
+  height: fit-content;
   border-radius: 10px;
 }
 
@@ -275,7 +275,7 @@ nav ul li a:hover {
 /* Media query for phones */
 @media (max-width: 768px) {
 .product-cards {
-  flex-direction: column; /* Stack the cards vertically */
+  flex-direction:row; /* Stack the cards vertically */
   align-items: center; /* Center the cards horizontally */
 }
 
