@@ -208,3 +208,66 @@ body {
 .product-card button:hover {
     background-color: #0056b3;
 }
+
+.side-menu {
+    width: 250px;
+    position: fixed;
+    top: 60px; /* Расположение под шапкой */
+    left: 0;
+    background-color: #f4f4f4;
+    height: 100%;
+    padding: 10px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu .menu-item {
+    position: relative;
+}
+
+.side-menu a {
+    padding: 15px 20px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.side-menu a:hover {
+    background-color: #ddd;
+}
+
+/* Скрытое подменю */
+.submenu {
+    display: none;
+    position: absolute;
+    left: 250px; /* Смещение вправо от основного меню */
+    top: 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li a {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.menu-item:hover .submenu {
+    display: block; /* Показать подменю при наведении */
+}
+
+/* Основное содержимое */
+.main-content {
+    margin-left: 260px; /* Отступ для бокового меню */
+    padding: 20px;
+}

@@ -183,16 +183,6 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-.product-card h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.product-card .price {
-    font-size: 1.2em;
-    color: #333;
-    margin: 10px 0;
-}
 
 .product-card p {
     font-size: 0.9em;
@@ -214,6 +204,18 @@ nav ul li a:hover {
     background-color: #0056b3;
 }
 
+/* Media query for phones */
+@media (max-width: 768px) {
+  .product-cards {
+    flex-direction: column; /* Stack the cards vertically */
+    align-items: center; /* Center the cards horizontally */
+  }
+
+  .product-card {
+    width: 80%; /* Adjust the width of the cards */
+    margin-bottom: 20px; /* Add space between the cards */
+  }
+}
 
 
 
@@ -449,3 +451,57 @@ nav ul li a:hover {
 }
 
 
+
+/* Search panel */
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #420d65;
+  padding: 10px 20px;
+  margin-top: 2px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.catalog-button {
+  background-color: #ffd700; /* Желтая кнопка */
+  border: none;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  width: 300px;
+  border-radius: 0;
+}
+
+.search-button {
+  background-color: #ffd700; /* Желтая кнопка */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Search panel */
+
+.productsh {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 1200px;
+  gap: 20px;
+  font-weight: 1000;
+  font-size: 30px;
+}
