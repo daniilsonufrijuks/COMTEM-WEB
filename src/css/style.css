@@ -481,7 +481,7 @@ nav ul li a:hover {
 
 .responsive-quote {
   position: relative;
-  margin: 40px 0;
+  margin: 130px 0;
   padding: 40px;
   background-color: var(--quote-bg-color);
   border-radius: 16px;
@@ -580,10 +580,11 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
   background-color: #ffffff;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 70px;
 }
 
 .info-item {
@@ -592,7 +593,7 @@ nav ul li a:hover {
 }
 
 .info-item img {
-  width: 50px;
+  width: 70px;
   margin-bottom: 10px;
 }
 
