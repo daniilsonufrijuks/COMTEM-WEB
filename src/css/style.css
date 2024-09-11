@@ -548,6 +548,17 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 500px) {
+  .responsive-quote {
+    font-size: 1.2em; /* Уменьшаем размер текста на маленьких экранах */
+    padding: 15px; /* Уменьшаем отступы */
+    margin: 10px;  /* Уменьшаем внешние отступы */
+    line-height: 1.4; /* Немного уменьшаем межстрочный интервал */
+  }
+}
+
+/* Testimonial */
+
 
 .productsh {
   display: flex;
