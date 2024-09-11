@@ -548,50 +548,6 @@ body {
 }
 
 
-
-/* Search panel */
-
-.search-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #420d65;
-  padding: 10px 20px;
-  margin-top: 2px;
-}
-
-.search-bar {
-  display: flex;
-  align-items: center;
-}
-
-.catalog-button {
-  background-color: #ffd700; /* Желтая кнопка */
-  border: none;
-  padding: 10px;
-  color: #333;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px 0 0 5px;
-}
-
-.search-input {
-  padding: 10px;
-  border: none;
-  width: 300px;
-  border-radius: 0;
-}
-
-.search-button {
-  background-color: #ffd700; /* Желтая кнопка */
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 0 5px 5px 0;
-}
-
-/* Search panel */
-
 .productsh {
   display: flex;
   justify-content: space-between;
