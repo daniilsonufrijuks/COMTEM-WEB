@@ -257,6 +257,9 @@ body {
   margin: 20px auto;
   max-width: 1200px;
   gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .product-card{
@@ -267,6 +270,8 @@ body {
   text-align: center;
   padding: 15px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  flex: 1 1 calc(50% - 10px); /* Каждая карточка занимает 50% ширины с небольшим отступом */
+  margin-bottom: 20px; /* Отступ между карточками */
 }
 
 .product-card:hover {
@@ -301,17 +306,13 @@ body {
   background-color: #0056b3;
 }
 
-/* Media query for phones */
-@media (max-width: 768px) {
-.product-cards {
-  flex-direction:row; /* Stack the cards vertically */
-  align-items: center; /* Center the cards horizontally */
-}
 
-.product-card {
-  width: 80%; /* Adjust the width of the cards */
-  margin-bottom: 20px; /* Add space between the cards */
-}
+/* Media query for screens 500px or less */
+@media (max-width: 500px) {
+  .product-card {
+    flex: 1 1 calc(50% - 5px); /* Для экранов меньше 500px, делаем карточки немного уже */
+    margin-bottom: 15px;
+  }
 }
 /* Cards near footer */
 
