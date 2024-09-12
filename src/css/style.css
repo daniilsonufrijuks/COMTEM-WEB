@@ -509,6 +509,10 @@ body {
   --quote-bg-color: #f7f7f7;
 }
 
+.testimonial-section {
+  background-color: #420d65;
+}
+
 .responsive-quote {
   position: relative;
   margin: 130px 0;
