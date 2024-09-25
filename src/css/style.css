@@ -191,9 +191,10 @@ body {
     margin: 20px auto;
     max-width: 1200px;
     gap: 20px;
+    align-items: stretch;
 }
 
-.product-card-top {
+/* .product-card-top {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -201,6 +202,22 @@ body {
     text-align: center;
     padding: 15px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+} */
+
+.product-card-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* This will push the button to the bottom */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 23%;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%; /* Ensure cards take full available height */
+  /* height: 150px; */
+  min-height: 300px;
 }
 
 .product-card-top:hover {
@@ -209,8 +226,7 @@ body {
 }
 
 .product-card-top img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%;  
     border-radius: 10px;
 }
 
