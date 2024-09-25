@@ -16,6 +16,7 @@
   <script src="../../js/menu.js" defer></script>
   <script src="../../js/slider.js" defer></script>
   <script src="../../js/search.js" defer></script>
+  <script src="../../js/searchmenu.js" defer></script>
 
   <title>COMTEM</title>
 </head>
@@ -57,24 +58,22 @@
             <li class="nav-item">
               <a class="nav-link" href="../logreg/login.html"> <img src="../../../img/prof.png" alt="Profile" style="width: 28px; height: 28px;"></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../"> <img src="../../../img/search.png" alt="Profile" style="width: 28px; height: 28px;"></a>
-            </li>
+
+            <!-- Search Button -->
+            <form id="navSearchForm" class="nav_search_form">
+              <input type="text" class="nav-search-input" placeholder="Search...">
+            </form>
+
+            <!-- Icon to trigger the search -->
+            <button class="nav_search-btn" id="navSearchBtn">
+              <img src="../../../img/search.png" alt="Search" style="width: 28px; height: 28px;">
+            </button>
           </ul>
         </div>
       </nav>
     </div>
   </header>
   <!-- Header -->
-
-
-  <!-- <div class="search-container">
-    <div class="search-bar">
-        <button class="catalog-button">📦 PREČU KATALOGS</button>
-        <input type="text" placeholder="FIND ITEM" class="search-input">
-        <button class="search-button">🔍</button>
-    </div>
-  </div> -->
 
   <!-- slider section -->
   <!-- Slideshow container -->

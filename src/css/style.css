@@ -126,6 +126,47 @@ body {
   top: 0;
 }
 
+.nav_search_form {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%) translateX(150%); /* Hidden initially */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 999;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-search-input {
+  width: 850px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* When the form is active */
+.nav_search_form.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(0); /* Slide it in */
+  width: 900px;
+}
+
+/* The search button */
+.nav_search-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav_search-btn img {
+  width: 28px;
+  height: 28px;
+}
 /* Header */
 
 
