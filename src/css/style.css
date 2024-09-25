@@ -260,6 +260,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
 }
 
 .product-card{
@@ -271,7 +272,7 @@ body {
   padding: 15px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   flex: 1 1 calc(50% - 10px); /* Каждая карточка занимает 50% ширины с небольшим отступом */
-  margin-bottom: 20px; /* Отступ между карточками */
+  margin-bottom: 50px; /* Отступ между карточками */
 }
 
 .product-card:hover {
@@ -299,7 +300,6 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .product-card button:hover {
