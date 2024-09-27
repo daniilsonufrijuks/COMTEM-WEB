@@ -7,13 +7,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    min-height: 100vh; /* Устанавливаем минимальную высоту тела страницы */
+    min-height: 100vh; 
     display: flex;
-    flex-direction: column; /* Элементы располагаются сверху вниз */
+    flex-direction: column; 
 }
 
 /* Header */
-/* Хедер */
 .header_section {
   padding: 15px 0;
   background-color: #420d65;
