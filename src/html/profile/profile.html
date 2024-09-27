@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../lib/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- <link rel="stylesheet" href="../../css/menuestyle.css"> -->
+
+
+    <script src="../../../lib/js/jquery-3.3.1.slim.min.js" defer></script>
+    <script src="../../../lib/js/popper.min.js" async></script>
+    <script src="../../../lib/js/bootstrap.min.js" defer></script>
+    <script src="../../js/menu.js" defer></script>
+    <script src="../../js/slider.js" defer></script>
+    <script src="../../js/search.js" defer></script>
+    <script src="../../js/searchmenu.js" defer></script>
+
+    <title>COMTEM</title>
+</head>
+<body>
+  <!-- Header -->
+  <!-- <header>
+    <div class="logo">COMTEM</div>
+    <nav>
+      <ul id="menu">
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="../../html/about/about.html">About</a></li>
+        <li><a href="../../html/contacts/contacts.html">Contacts</a></li>
+        <li><a href="../../html/discounts/discounts.html">Discounts</a></li>
+        <li><a href="../../">Market</a></li>
+        <li><a class="give" href="">Giveaways</a></li>
+        <li><button href="../../html/login/login.html">Login</button></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">
+        &#9776; 
+    </div>
+  </header> -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="../home/index.html">
+          <span>
+            COMTEM
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/about.html"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contacts/contacts.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../discounts/discounts.html">Discounts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../html/market/market.html">Market</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../giveaw/giveaw.html">Giveaways</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../logreg/login.html"> <img src="../../../img/prof.png" alt="Profile" style="width: 28px; height: 28px;"></a>
+            </li>
+
+            <!-- Search Button -->
+            <form id="navSearchForm" class="nav_search_form">
+              <input type="text" class="nav-search-input" placeholder="Search...">
+            </form>
+
+            <!-- Icon to trigger the search -->
+            <button class="nav_search-btn" id="navSearchBtn">
+              <img src="../../../img/search.png" alt="Search" style="width: 28px; height: 28px;">
+            </button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header -->
+
+
+  <!-- <div class="search-container">
+    <div class="search-bar">
+        <button class="catalog-button">📦 PREČU KATALOGS</button>
+        <input type="text" placeholder="FIND ITEM" class="search-input">
+        <button class="search-button">🔍</button>
+    </div>
+  </div> -->
+
+  <!-- slider section -->
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../../../img/slbg1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../../../img/slbg2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../../../img/slbg3.png" style="width:100%">
+  </div>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+ <!-- end slider section -->
+
+ <div class="product-cards-top">
+  <div class="product-card-top">
+      <img src="../../../img/prod1.png" alt="Product 1">
+      <p>Best quality product at an affordable price.</p>
+      <button>Go</button>
+  </div>
+
+  <div class="product-card-top">
+      <img src="../../../img/prod2.png" alt="Product 2">
+      <p>Limited time offer, hurry up!</p>
+      <button>Go</button>
+  </div>
+
+  <div class="product-card-top">
+      <img src="../../../img/prod3.png" alt="Product 3">
+      <p>Top choice among customers this month.</p>
+      <button>Go</button>
+  </div>
+
+  <div class="product-card-top">
+      <img src="../../../img/prod4.png" alt="Product 4">
+      <p>Special discount for a limited period.</p>
+      <button>Go</button>
+  </div>
+</div>
+
+
+
+ <!-- contact section -->
+
+ <section class="contact_section ">
+  <div class="container px-0">
+    <div class="heading_container ">
+      <h2 class="productsh">
+        Contact Us
+      </h2>
+    </div>
+  </div>
+  <div class="container container-bg">
+    <div class="row">
+      <div class="col-lg-7 col-md-6 px-0">
+        <div class="map_container">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.752002814705!2d24.101903377117267!3d56.95305007355204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecf7bac058ce9%3A0x96a8a0e931b27448!2z0KDQuNC20YHQutC40Lkg0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INGC0LXRhdC90LjQutGD0Lw!5e0!3m2!1sru!2slv!4v1725731560133!5m2!1sru!2slv" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 px-0">
+        <form action="#">
+          <div>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div>
+            <input type="text" placeholder="Phone" />
+          </div>
+          <div>
+            <input type="text" class="message-box" placeholder="Message" />
+          </div>
+          <div class="d-flex ">
+            <button>
+              SEND
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end contact section -->
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="menu">
+    <li class="menu__item"><a class="menu__link" href="../home/index.html">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="../about/about.html">About</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+    <li class="menu__item"><a class="menu__link" href="../contacts/contacts.html">Contact</a></li>
+  </ul>
+  <p>&copy;2024 COMTEM | All Rights Reserved</p>
+</footer>
+<!-- Footer -->
+    
+</body>
+</html>
