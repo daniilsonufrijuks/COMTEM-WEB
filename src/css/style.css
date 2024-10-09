@@ -396,6 +396,7 @@ body {
     justify-content: center;
     margin: 10px 0;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu__link {
@@ -417,6 +418,12 @@ body {
     font-size: 1rem;
 }
 
+@media (max-width: 500px) {
+  .menu__item {
+    display: none;
+  }
+}
+
 /* waves */
 .wave {
     position: absolute;
@@ -426,7 +433,7 @@ body {
     height: 100px;
     background: url("../../img/wave.png");
     background-size: 1000px 100px;
-  }
+}
   
 .wave#wave1 {
   z-index: 1000;
