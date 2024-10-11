@@ -845,6 +845,24 @@ body {
   line-height: 25px;
 }
 
+.gcardt {
+  animation: animt 5s ease-in-out infinite;
+}
+
+@keyframes animt {
+  0% {
+    color: #333333;
+  }
+
+  50% {
+    color: #333333;
+  }
+
+  100% {
+    color: #534343;
+  }
+}
+
 /* product */
 
 
