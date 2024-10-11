@@ -14,7 +14,7 @@ body {
 
 /* Header */
 .header_section {
-  padding: 15px 0;
+  padding: 7px 0;
   background-color: #420d65;
 }
 
@@ -29,6 +29,10 @@ body {
   color: #ffffff;
 }
 
+.nav-link {
+  font-size: 15px;
+}
+
 .custom_nav-container {
   padding: 0;
 }
@@ -38,7 +42,7 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 5px 20px;
+  padding: 5px 15px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -546,9 +550,9 @@ body {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #db4f66;
+  background-color: #420d65;
   color: #ffffff;
-  border: 1px solid #db4f66;
+  border: 1px solid #420d65;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -559,7 +563,7 @@ body {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #db4f66;
+  color: #420d65;
 }
 
 .contact_section .map_container {
