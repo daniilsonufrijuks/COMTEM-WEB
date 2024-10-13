@@ -137,11 +137,11 @@ body {
   top: 0;
 }
 
-.nav_search_form {
+/* .nav_search_form {
   position: absolute;
   top: 50%;
   right: 165px;
-  transform: translateY(-50%) translateX(150%); /* Hidden initially */
+  transform: translateY(-50%) translateX(150%); 
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 10px;
@@ -160,7 +160,7 @@ body {
   border-radius: 5px;
 }
 
-/* When the form is active */
+
 .nav_search_form.active {
   width: 100%;
   opacity: 1;
@@ -169,7 +169,7 @@ body {
   width: 900px;
 }
 
-/* The search button */
+
 .nav_search-btn {
   background-color: transparent;
   border: none;
@@ -185,7 +185,7 @@ body {
   .nav_search-btn {
     display: none;
   }
-}
+} */
 /* Header */
 
 
@@ -905,7 +905,7 @@ body {
 }
 
 .container_search {
-  padding: 30px;
+  padding: 30px !important;
 }
 
 .search input {
