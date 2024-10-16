@@ -861,15 +861,15 @@ body {
 
 @keyframes animt {
   0% {
-    color: #333333;
+    color: #9a73a1;
   }
 
   50% {
-    color: #333333;
+    color: #8b2c84;
   }
 
   100% {
-    color: #534343;
+    color: #5c0a55;
   }
 }
 
