@@ -12,7 +12,7 @@ Sadaļas - Mājas lapa, lapa Par mums, lapa Kontakti, lapa Market un lapa Dāvan
 Market lapā būs sublapas produktiem un lapa izsolei.
 
 
-##*Galery*
+*Galery*
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
