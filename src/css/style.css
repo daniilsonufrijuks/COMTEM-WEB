@@ -6,10 +6,28 @@
 } */
 
 body {
-    font-family: Arial, sans-serif;
-    min-height: 100vh; 
-    display: flex;
-    flex-direction: column; 
+  font-family: Arial, sans-serif;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Custom scrollbar styles for WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 15px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #a87eac; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #752070; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #45033f; /* Color of the scrollbar thumb on hover */
 }
 
 /* Header */
