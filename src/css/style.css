@@ -1054,3 +1054,48 @@ textarea {
 }
 
 /* Cart */
+
+
+
+
+
+.filter-sidebar {
+  width: 350px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+.price-filter, .filter-section {
+  margin-bottom: 20px;
+}
+
+.price-filter input[type="number"] {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.price-range input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.filter-option label {
+  margin-left: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
