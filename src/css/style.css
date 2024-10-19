@@ -45,7 +45,23 @@ body {
   font-weight: bold;
   font-size: 24px;
   color: #ffffff;
+  animation: animth 2s ease-in-out infinite;
 }
+
+@keyframes animth {
+  0% {
+    color: #c8a9ce;
+  }
+
+  /* 50% {
+    color: #865b83;
+  } */
+
+  100% {
+    color: #7b5278;
+  }
+}
+
 
 .nav-link {
   font-size: 15px;
