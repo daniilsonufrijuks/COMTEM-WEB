@@ -1057,7 +1057,11 @@ textarea {
 
 
 
-
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .filter-sidebar {
   width: 350px;
@@ -1065,10 +1069,20 @@ textarea {
   background-color: #f8f8f8;
   border-radius: 8px;
   margin-left: auto;
+  gap: 20px;
+  width: 20%; /* Adjust the width as needed */
+  margin-right: 20px; /* Space between sidebar and product cards */
 }
 
 .price-filter, .filter-section {
   margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-filter {
+  align-items: center;
+  justify-content: center;
 }
 
 .price-filter input[type="number"] {
@@ -1084,8 +1098,9 @@ textarea {
 .filter-option {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 10px;
+
 }
 
 .filter-option label {
@@ -1098,4 +1113,19 @@ button {
   border: none;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+
+/* MEDIA QUERY for smaller screens */
+/* On smaller screens (below 768px), stack the filter above the product cards */
+@media (max-width: 1500px) {
+  .product-container {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .filter-sidebar {
+    width: 100%; /* Sidebar takes full width */
+    margin-right: 0;
+    margin-bottom: 20px; /* Adds space between sidebar and product cards */
+  }
 }

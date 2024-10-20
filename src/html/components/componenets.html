@@ -17,6 +17,7 @@
     <script src="../../js/slider.js" defer></script>
     <script src="../../js/search.js" defer></script>
     <script src="../../js/searchmenu.js" defer></script>
+    <script src="../../js/fsliderbtn.js" defer></script>
 
     <title>COMTEM</title>
 </head>
@@ -172,62 +173,93 @@
 </div>
 
 
-<div class="filter-sidebar">
-  <div class="price-filter">
-      <h2 class="productsh">Price, €</h2>
-      <input type="number" id="minPrice" value="150">
-      <input type="number" id="maxPrice" value="5000">
-      <button id="filterPriceBtn">OK</button>
-      <div class="price-range">
-          <input type="range" id="minSlider" min="150" max="5000" value="150">
-          <input type="range" id="maxSlider" min="150" max="5000" value="5000">
-      </div>
+<p class="productsh"> Componenets</p>
+
+
+<div class="product-container">
+  <div class="filter-sidebar">
+    <div class="price-filter">
+        <h2 class="productsh">Price, €</h2>
+        <input type="number" id="minPrice" value="150">
+        <input type="number" id="maxPrice" value="5000">
+        <button id="filterPriceBtn">OK</button>
+        <div class="price-range">
+            <input type="range" id="minSlider" min="150" max="5000" value="150">
+            <input type="range" id="maxSlider" min="150" max="5000" value="5000">
+        </div>
+    </div>
+  
+    <div class="filter-section">
+        <h4 class="productsh">Manufacturer</h4>
+        <div class="filter-option">
+            <input type="checkbox" id="lenovo">
+            <label for="lenovo">Lenovo</label>
+        </div>
+        <div class="filter-option">
+            <input type="checkbox" id="asus">
+            <label for="asus">Asus</label>
+        </div>
+        <div class="filter-option">
+            <input type="checkbox" id="dell">
+            <label for="dell">Dell</label>
+        </div>
+        <div class="filter-option">
+            <input type="checkbox" id="hp">
+            <label for="hp">HP</label> 
+        </div>
+        <div class="filter-option">
+            <input type="checkbox" id="acer">
+            <label for="acer">Acer</label>
+        </div>
+    </div>
+  
+    <div class="filter-section">
+        <h4 class="productsh">Tech</h4>
+        <div class="filter-option">
+            <input type="checkbox" id="copilotPC">
+            <label for="copilotPC">AI Copilot+PC</label>
+        </div>
+        <div class="filter-option">
+            <input type="checkbox" id="aiReadyPC">
+            <label for="aiReadyPC">AI Ready PC</label> 
+        </div>
+        <div class="filter-option">
+            <input type="checkbox" id="nav3">
+            <label for="nav3">NAV 3</label> 
+        </div>
+    </div>
   </div>
 
-  <div class="filter-section">
-      <h4 class="productsh">Manufacturer</h4>
-      <div class="filter-option">
-          <input type="checkbox" id="lenovo">
-          <label for="lenovo">Lenovo</label>
-      </div>
-      <div class="filter-option">
-          <input type="checkbox" id="asus">
-          <label for="asus">Asus</label>
-      </div>
-      <div class="filter-option">
-          <input type="checkbox" id="dell">
-          <label for="dell">Dell</label>
-      </div>
-      <div class="filter-option">
-          <input type="checkbox" id="hp">
-          <label for="hp">HP</label> 
-      </div>
-      <div class="filter-option">
-          <input type="checkbox" id="acer">
-          <label for="acer">Acer</label>
-      </div>
-  </div>
-
-  <div class="filter-section">
-      <h4 class="productsh">Tech</h4>
-      <div class="filter-option">
-          <input type="checkbox" id="copilotPC">
-          <label for="copilotPC">AI Copilot+PC</label>
-      </div>
-      <div class="filter-option">
-          <input type="checkbox" id="aiReadyPC">
-          <label for="aiReadyPC">AI Ready PC</label> 
-      </div>
-      <div class="filter-option">
-          <input type="checkbox" id="nav3">
-          <label for="nav3">NAV 3</label> 
-      </div>
+  <div class="product-cards">
+    <div class="product-card">
+        <img src="../../../img/inteli5.png" alt="Product 1">
+        <p>Best quality product at an affordable price.</p>
+        <button onclick="location.href='../../html/goods/goodcard.html'">Buy</button>
+    </div>
+  
+    <div class="product-card">
+        <img src="../../../img/ryzen7.png" alt="Product 2">
+        <p>Limited time offer, hurry up!</p>
+        <button onclick="location.href='../../html/goods/goodcard.html'">Buy</button>
+    </div>
+  
+    <div class="product-card">
+        <img src="../../../img/radeonrx.png" alt="Product 3">
+        <p>Top choice among customers this month.</p>
+        <button onclick="location.href='../../html/goods/goodcard.html'">Buy</button>
+    </div>
+  
+    <div class="product-card">
+        <img src="../../../img/rtx3060.png" alt="Product 4">
+        <p>Special discount for a limited period.</p>
+        <button onclick="location.href='../../html/goods/goodcard.html'">Buy</button>
+    </div>
   </div>
 </div>
 
 
- <!-- contact section -->
 
+ <!-- contact section -->
  <section class="contact_section ">
   <div class="container px-0">
     <div class="heading_container ">
