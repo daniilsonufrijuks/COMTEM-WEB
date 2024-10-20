@@ -1066,12 +1066,13 @@ textarea {
 .filter-sidebar {
   width: 350px;
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #d0b4d1;
   border-radius: 8px;
   margin-left: auto;
   gap: 20px;
   width: 20%; /* Adjust the width as needed */
   margin-right: 20px; /* Space between sidebar and product cards */
+  border: 5px solid #420d65;
 }
 
 .price-filter, .filter-section {
