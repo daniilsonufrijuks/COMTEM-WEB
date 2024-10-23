@@ -12,11 +12,11 @@ function handleSearch(event) {
     const query = searchInput.value.toLowerCase(); // Get the search query and convert to lowercase
 
     // Redirect based on the search query
-    if (query === 'about us') {
+    if (query === 'about us' || query === 'aboutus' || query === 'about') {
         window.location.href = '../about/about.html';
-    } else if (query === 'home') {
+    } else if (query === 'home' ) {
         window.location.href = '../home/index.html';
-    } else if (query === 'contacts') {
+    } else if (query === 'contacts' || query === 'contact') {
         window.location.href = '../contacts/contacts.html';
     } else if (query === 'discounts') {
         window.location.href = '../discounts/discounts.html';
