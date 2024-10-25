@@ -204,6 +204,36 @@ body {
     display: none;
   }
 } */
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  top: 150%; /* Position below the parent */
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show the dropdown menu on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
 /* Header */
 
 
