@@ -209,7 +209,7 @@ body {
 .dropdown-menu {
   display: none; /* Hide the dropdown by default */
   position: absolute;
-  top: 150%; /* Position below the parent */
+  top: 100%; /* Position below the parent */
   left: 0;
   background-color: #fff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -233,6 +233,16 @@ body {
 /* Show the dropdown menu on hover */
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
+}
+
+@media (max-width: 990px) {
+  .dropdown-menu {
+    display: none;
+  }
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: none;
+  }
+  
 }
 /* Header */
 
