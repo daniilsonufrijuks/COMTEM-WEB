@@ -300,6 +300,23 @@ body {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  /* Media query for screens 500px or less */
+  @media (max-width: 600px) {
+    .slideshow-container {
+      max-width: 100%; /* Make the slider take up the full width */
+      height: 100vh; /* Make the slider take up the full viewport height */
+      padding-top: 0; /* Remove top padding */
+      margin-bottom: 0; /* Remove bottom margin */
+    }
+    
+  
+    .mySlides img {
+      width: 100%; /* Ensure images take up the full width */
+      height: 70vh; /* Make images take up the full viewport height */
+      object-fit: cover; /* Ensure images cover the container without distortion */
+    }
+  }
 /* Slider */
 
 
