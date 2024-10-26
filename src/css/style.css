@@ -851,9 +851,24 @@ body {
   padding: 50px;
   box-sizing: border-box;
   /* left: 100px; */
-  left: 10%;
+  left: 15%;
   position: relative;
 }
+
+/* .section-p1 {
+  justify-content: center !important; 
+  align-items: center !important;
+} */
+
+.single-pro-image {
+  justify-content: center;
+  align-items: center;
+}
+
+/* .single-pro-details {
+  justify-content: center;
+  align-items: center;
+} */
 
 #productdetails .single-pro-image{
   width: 40%;
