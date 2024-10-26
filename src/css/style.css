@@ -1216,3 +1216,32 @@ button {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+
+/* Search suggestions clues */
+.suggestions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid #ddd; */
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  top: 60px;
+}
+
+.suggestions-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Search suggestions clues */
