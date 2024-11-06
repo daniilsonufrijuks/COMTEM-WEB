@@ -28,3 +28,7 @@ The Market page will have subpages for products and a page for auction.
 
 
 https://www.youtube.com/watch?v=tYrnAsxhUJk
+https://www.creative-tim.com/product/vue-material-kit?affiliate_id=116187
+https://mdbootstrap.com/docs/vue/?utm_ref_id=82665
+https://vuejs.org/ecosystem/themes
+https://mdbootstrap.com/docs/vue/getting-started/installation/
